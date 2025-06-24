@@ -1,0 +1,105 @@
+============================== Running Part a ==============================
+Initializing Part a: N=900, L=15.0, dt=0.02
+
+--- Starting Simulation ---
+N = 900, Steps = 2000, dt = 0.02
+Target kBT = 0.1111
+---------------------------
+Step: 500/2000, Temp: 0.0039, Momentum: [-3.86921398e-14 -3.80251386e-14], Time: 34.88s
+Step: 1000/2000, Temp: 0.0023, Momentum: [-4.57776178e-14 -2.13336293e-14], Time: 70.42s
+Step: 1500/2000, Temp: 0.0024, Momentum: [-3.71994102e-14 -4.60655819e-14], Time: 106.29s
+Step: 2000/2000, Temp: 0.0023, Momentum: [-7.21506188e-14 -1.54563862e-14], Time: 142.51s
+--- Simulation Finished (142.51s) ---
+Part a finished for dt=0.02. Check momentum and temperature.
+Initializing Part a: N=900, L=15.0, dt=0.01
+
+--- Starting Simulation ---
+N = 900, Steps = 2000, dt = 0.01
+Target kBT = 0.1111
+---------------------------
+Step: 500/2000, Temp: 0.0170, Momentum: [ 2.06779038e-14 -1.04638520e-14], Time: 34.92s
+Step: 1000/2000, Temp: 0.0027, Momentum: [-7.70217223e-15  1.75831572e-14], Time: 71.12s
+Step: 1500/2000, Temp: 0.0016, Momentum: [-2.44049572e-14  3.53883589e-15], Time: 107.64s
+Step: 2000/2000, Temp: 0.0013, Momentum: [-3.15338033e-14 -2.53963517e-15], Time: 144.17s
+--- Simulation Finished (144.17s) ---
+Part a finished for dt=0.01. Check momentum and temperature.
+Initializing Part a: N=900, L=15.0, dt=0.005
+
+--- Starting Simulation ---
+N = 900, Steps = 10000, dt = 0.005
+Target kBT = 0.1111
+---------------------------
+Step: 1000/10000, Temp: 0.0289, Momentum: [ 2.77278200e-14 -1.71052408e-14], Time: 68.90s
+Step: 2000/10000, Temp: 0.0042, Momentum: [ 3.05172554e-14 -3.25434124e-14], Time: 139.55s
+Step: 3000/10000, Temp: 0.0008, Momentum: [ 3.04235803e-14 -2.59462590e-14], Time: 211.12s
+Step: 4000/10000, Temp: 0.0006, Momentum: [ 3.63424568e-14 -2.64718802e-14], Time: 282.04s
+Step: 5000/10000, Temp: 0.0006, Momentum: [ 4.90267549e-14 -3.37230244e-14], Time: 353.69s
+Step: 6000/10000, Temp: 0.0006, Momentum: [ 4.25388891e-14 -4.26117475e-14], Time: 424.61s
+Step: 7000/10000, Temp: 0.0006, Momentum: [ 4.47541310e-14 -4.51652604e-14], Time: 496.30s
+Step: 8000/10000, Temp: 0.0006, Momentum: [ 2.76272061e-14 -3.62210262e-14], Time: 567.20s
+Step: 9000/10000, Temp: 0.0006, Momentum: [ 3.40907857e-14 -3.87224974e-14], Time: 639.39s
+Step: 10000/10000, Temp: 0.0005, Momentum: [ 2.37206088e-14 -3.99784372e-14], Time: 710.40s
+--- Simulation Finished (710.40s) ---
+Generating animation (201 frames)...
+Successfully saved animation to part_a_simulation.mp4
+Part a finished for dt=0.005 (long run). Check momentum and temperature.
+Saved temperature plot to part_a_temp_history.png
+
+============================== Running Part b ==============================
+Initializing Part b: N=900, L=15.0, dt=0.01
+  Created 42 chains (262 effective molecule particles).
+  Added 606 fluid particles.
+  Created 123 wall particles.
+
+--- Starting Simulation ---
+N = 900, Steps = 5000, dt = 0.01
+Target kBT = 0.1111
+Moving wall particles = 123
+Bonds = 252, Ks = 100.0, rs = 0.1
+---------------------------
+Step: 500/5000, Temp: 50.2825, Momentum: [ 123.27953057 -452.18035631], Time: 39.03s
+Step: 1000/5000, Temp: 7.1062, Momentum: [ 363.52858207 -294.08427216], Time: 77.05s
+Step: 1500/5000, Temp: 6.1297, Momentum: [ 407.45284899 -244.98061727], Time: 115.15s
+Step: 2000/5000, Temp: 45.6702, Momentum: [ 447.22234015 -179.96305765], Time: 153.17s
+Step: 2500/5000, Temp: 6.2393, Momentum: [ 593.16728979 -134.00329056], Time: 191.04s
+Step: 3000/5000, Temp: 5.6544, Momentum: [701.07934003 -62.39545114], Time: 229.11s
+Step: 3500/5000, Temp: 49.0367, Momentum: [626.70070628 -21.11462221], Time: 267.35s
+Step: 4000/5000, Temp: 6.7330, Momentum: [736.05507354 -31.22744897], Time: 305.28s
+Step: 4500/5000, Temp: 5.8167, Momentum: [854.73200263 -30.06771304], Time: 343.49s
+Step: 5000/5000, Temp: 41.9508, Momentum: [771.92382133 -17.90912087], Time: 381.91s
+--- Simulation Finished (381.91s) ---
+Generating animation (101 frames)...
+Successfully saved animation to part_b_simulation.mp4
+Part b finished.
+Saved velocity profile to part_b_velocity_profile.png
+Saved molecule distribution plot to part_b_molecule_dist.png
+
+============================== Running Part c ==============================
+Initializing Part c: N=900, L=15.0, dt=0.01
+  Created 10 rings (81 effective molecule particles).
+  Added 810 fluid particles.
+  Created 117 fixed wall particles.
+
+--- Starting Simulation ---
+N = 900, Steps = 10000, dt = 0.01
+Target kBT = 0.1111
+Fixed particles = 117
+Bonds = 90, Ks = 100.0, rs = 0.3
+Body force = [0.3 0. ]
+---------------------------
+Step: 1000/10000, Temp: 0.4421, Momentum: [620.96427299  64.55400473], Time: 69.71s
+Step: 2000/10000, Temp: 0.4558, Momentum: [619.35447665  -5.09115793], Time: 140.45s
+Step: 3000/10000, Temp: 0.5114, Momentum: [672.50400327 -15.77915526], Time: 211.79s
+Step: 4000/10000, Temp: 0.4740, Momentum: [650.81648476  24.98309055], Time: 282.95s
+Step: 5000/10000, Temp: 0.5455, Momentum: [696.3632699    6.99990717], Time: 353.98s
+Step: 6000/10000, Temp: 0.5244, Momentum: [ 6.9063349e+02 -5.2937186e-01], Time: 424.82s
+Step: 7000/10000, Temp: 0.4888, Momentum: [663.63812003   2.99630868], Time: 496.05s
+Step: 8000/10000, Temp: 0.5742, Momentum: [711.35847132   5.42303546], Time: 567.15s
+Step: 9000/10000, Temp: 0.5463, Momentum: [702.22228718   9.17375255], Time: 638.43s
+Step: 10000/10000, Temp: 0.5327, Momentum: [678.1411689 -40.2783847], Time: 709.30s
+--- Simulation Finished (709.30s) ---
+Generating animation (201 frames)...
+Successfully saved animation to part_c_simulation.mp4
+Part c finished.
+Saved velocity profile to part_c_velocity_profile.png
+Saved molecule distribution plot to part_c_molecule_dist.png
